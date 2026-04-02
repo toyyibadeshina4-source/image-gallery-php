@@ -1,0 +1,22 @@
+
+body {
+    background-color: orange;
+}
+
+.gallery-grid {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap:20px;
+    padding:20px;
+}
+.gallery-item {
+    text-align:center;
+    border:1px solid #ddd;
+    padding:10px;
+    border-radius:8px;
+}
+.gallery-item img {
+max-width:100%;
+height:auto;
+border-radius:4px;
+}

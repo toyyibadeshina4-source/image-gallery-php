@@ -1,0 +1,15 @@
+/* Add custom rules here....*/
+
+.link-style  {
+    display:block;
+    background-color:rgb(200, 200,200);
+    
+}
+a {
+     text-decoration:none;
+     color:green;
+}
+.notice {
+    border:10px solid black;
+    
+}
